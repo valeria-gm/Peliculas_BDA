@@ -1,0 +1,11 @@
+Después de instalar XAMPP, dentro de la carpeta htdocs, crear un nuevo directorio donde se pondrán todos los archivos del proyecto. 
+Prender tanto el servidor de Apache como MySQL desde el panel de control XAMPP y en el navegador acceder a "http://localhost/phpmyadmin/index.php", en donde se podrá restaurar la base de datos ya sea por línea de comando SQL, copiando y pegando el código de los respectivos archivos, o importando estos directamente. Se debe comenzar por el archivo de nombre "pelicula.sql", el cual crea la base de datos y sus tablas. 
+A continuación, se crean los usuarios con el archivo "usuarios_bd.sql". Finalmente, se ingresan los registros de todas las tablas con los archivos "data_insert.sql", "insert_pelicula(2).sql" y "reviews_insert.sql", en ese orden.
+
+Para acceder a las distintas pestañas y visualizar los datos, en el navegador escribir la ruta de la carpeta en la que se encuentra el proyecto, por ejemplo: "http://localhost/enesmorelia/proyecto/" y al final añadir cualquiera de las siguientes terminaciones "index.php", "directores.php", "reviews.php".
+El proyecto se encuentra en fase inicial y queda mucho por mejorar en el apartado visual; sin embargo, el objetivo de esta primera entrega era la funcionalidad básica de la base de datos y su correcta visualización, además de reflejar lo aprendido durante el curso de base de datos.
+
+Autoría de 
+Valeria Garcés Mendoza
+Ibeth Escobedo Rios
+UNAM, TICS, 2022
